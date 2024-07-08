@@ -14,6 +14,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'react-compiler'],
   rules: {
     '@typescript-eslint/no-explicit-any': 'error',
+    'react-compiler/react-compiler': 'error',
   },
   settings: {
     react: {
